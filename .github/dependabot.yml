@@ -7,3 +7,18 @@ updates:
     package-ecosystem: 'npm'
     schedule:
       interval: 'monthly'
+    groups:
+      emotion:
+        patterns:
+          - "@emotion*"
+      mui:
+        patterns:
+          - "@mui*"
+      react-deps:
+        patterns:
+          - "react*"
+      lint:
+        patterns:
+          - "eslint*"
+          - "@eslint*"
+          - "globals"
